@@ -1,0 +1,1 @@
+print("niko biblia , nikoloz yvavadze , andria kobaxidze , andria lagvilava")
