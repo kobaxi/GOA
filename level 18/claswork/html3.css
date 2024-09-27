@@ -1,0 +1,19 @@
+h1{
+    color: rgb(9, 9, 5);
+    background-color: rgb(245, 9, 9);
+    font-size: 15px;
+}
+button{
+    color: rgb(10, 2, 10);
+    background-color: rgb(205, 5, 5);
+    font-size: larger;
+ 
+ }
+ p{
+    color: rgb(8, 1, 1);
+    background-color: rgb(246, 4, 4);
+    font-size: 15px;
+}
+body{
+    background-color: rgb(254, 8, 8);
+}
