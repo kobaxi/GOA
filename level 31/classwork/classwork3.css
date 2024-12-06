@@ -1,0 +1,12 @@
+
+#leaderboard {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+#leaderboard th {
+    padding: 10px;
+    text-align: left;
+    background-color: #218838;
+}
+

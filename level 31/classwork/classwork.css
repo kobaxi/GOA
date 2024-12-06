@@ -1,0 +1,9 @@
+a {
+    text-decoration: none;
+    letter-spacing: 10px;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
