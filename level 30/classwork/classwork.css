@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.box1, .box2, .box3, .box4 {
+    background-color: rgb(242, 242, 242);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
