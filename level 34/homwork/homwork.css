@@ -1,0 +1,16 @@
+.shadow-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.shadow-box:hover {
+    width: 120px;
+    height: 120px;
+    background-color:aquamarine;
+}

@@ -1,0 +1,14 @@
+
+.hover-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue; 
+    transition:  0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.hover-box:hover {
+    background-color: lightcoral;
+}
