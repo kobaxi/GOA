@@ -1,0 +1,99 @@
+:root{
+    --h1backroundcolor:black;
+    --h1fontfamily:cursive;
+    --h1fontsaze:30px;
+    --h1paiding:13px;
+    --h1letterspacing:normal;
+    --h1diplay:flex;
+    --h1flex:auto;
+    --h1grid:13px;
+    --h1margin:auto;
+    --h1position:relative;
+    --h1transfrom:rotate(300deg);
+    --h1transition:6s;
+    --h1width:50px;
+    --h1height:50px;
+
+
+}
+h1{
+  background-color: var(--h1backroundcolor);
+  font-family: var(--h1fontfamily);
+  font-size: var(--h1fontsaze);
+  padding: var(--h1paiding);
+letter-spacing: var(--h1letterspacing);
+display: var(--h1diplay);
+flex: var(--h1flex);
+grid: var(--h1grid);
+margin: var(--h1margin);
+position: var(--h1position);
+transition: var(--h1position);
+width: var(--h1width);
+height: var(--h1height);
+}
+:root{
+    --pbackroundcolor:black;
+    --pfontfamily:cursive;
+    --pfontsaze:30px;
+    --ppaiding:13px;
+    --pletterspacing:normal;
+    --pdiplay:flex;
+    --pflex:auto;
+    --pgrid:13px;
+    --pmargin:auto;
+    --pposition:relative;
+    --ptransfrom:rotate(300deg);
+    --ptransition:6s;
+    --pwidth:50px;
+    --pheight:50px;
+
+
+}
+p{
+    background-color: var(--pbackroundcolor);
+    font-family: var(--pfontfamily);
+    font-size: var(--pfontsaze);
+    padding: var(--ppaiding);
+  letter-spacing: var(--pletterspacing);
+  display: var(--pdiplay);
+  flex: var(--pflex);
+  grid: var(--pgrid);
+  margin: var(--pmargin);
+  position: var(--pposition);
+  transition: var(--pposition);
+  width: var(--pwidth);
+  height: var(--pheight);
+  }
+  :root{
+    --btnbackroundcolor:black;
+    --btnfontfamily:cursive;
+    --btnfontsaze:30px;
+    --btnpaiding:13px;
+    --btnletterspacing:normal;
+    --btndiplay:flex;
+    --btnflex:auto;
+    --btngrid:13px;
+    --btnmargin:auto;
+    --btnposition:relative;
+    --btntransfrom:rotate(300deg);
+    --btntransition:6s;
+    --btnwidth:50px;
+    --btnheight:50px;
+
+
+}
+p{
+    background-color: var(--btnbackroundcolor);
+    font-family: var(--btnfontfamily);
+    font-size: var(--btnfontsaze);
+    padding: var(--btnpaiding);
+  letter-spacing: var(--btnletterspacing);
+  display: var(--btndiplay);
+  flex: var(--btnflex);
+  grid: var(--btngrid);
+  margin: var(--btnmargin);
+  position: var(--btnposition);
+  transition: var(--btnposition);
+  width: var(--btnwidth);
+  height: var(--btnheight);
+  }

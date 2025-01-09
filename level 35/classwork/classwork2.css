@@ -1,0 +1,20 @@
+.a{
+    width: 30px;
+    height: 30px;
+    background-color: aquamarine;
+    transition: all , 1s , 5s;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    transition: cubic-bezier(1, 0, 0, 1) , 6s , 7s;
+}
+a:hover{
+    transform: rotate(300deg) translateY(300deg ) skewX(20deg) scale(2);
+    background-color: black;
+}
+img:hover{
+    transform: rotate(300deg) translateY(300deg ) skewX(20deg) scale(2);
+    background-color: wheat;
+}

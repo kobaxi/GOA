@@ -1,0 +1,39 @@
+div{
+    color:black;
+}
+p{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background:linear-gradient(white,skyblue)
+}
+.h2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.h3{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.h4{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
