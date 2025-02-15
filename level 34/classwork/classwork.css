@@ -1,31 +1,33 @@
-
 .box {
     width: 150px;
     height: 150px;
     margin: 20px;
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease;
 }
 
 
 .box1 {
     background-color: red;
 }
+
 .box1:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 
 .box2 {
     background-color: blue;
 }
+
 .box2:hover {
-    background-color: green; 
+    background-color: green;
 }
 
 
 .box3 {
     background-color: yellow;
 }
+
 .box3:hover {
     transform: rotate(45deg);
 }
