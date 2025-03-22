@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculations</title>
+    <script src="homwork2.js" defer></script> 
+</head>
+<body>
+
+    <h2>1. Calculate Remaining Apples</h2>
+
+    <label for="totalApples">Total Apples:</label>
+    <input type="number" id="totalApples" placeholder="Enter total apples"><br><br>
+
+    <label for="givenApples">Apples Given Away:</label>
+    <input type="number" id="givenApples" placeholder="Enter apples given"><br><br>
+
+    <button onclick="calculateRemainingApples()">Calculate Remaining Apples</button>
+    <h3>Remaining Apples:</h3>
+    <p id="appleOutput"></p>
+
+    <hr>
+
+    <h2>2. Deposit in Bank</h2>
+
+    <label for="initialSavings">Initial Savings:</label>
+    <input type="number" id="initialSavings" placeholder="Enter initial savings"><br><br>
+
+    <label for="deposit">Deposit Amount:</label>
+    <input type="number" id="deposit" placeholder="Enter deposit amount"><br><br>
+
+    <button onclick="calculateTotalSavings()">Calculate Total Savings</button>
+    <h3>Total Savings:</h3>
+    <p id="depositOutput"></p>
+
+    <hr>
+
+    <h2>3. Collection of Coins</h2>
+
+    <label for="totalCoins">Total Coins:</label>
+    <input type="number" id="totalCoins" placeholder="Enter total coins"><br><br>
+
+    <label for="spentCoins">Coins Spent:</label>
+    <input type="number" id="spentCoins" placeholder="Enter coins spent"><br><br>
+
+    <button onclick="calculateRemainingCoins()">Calculate Remaining Coins</button>
+    <h3>Remaining Coins:</h3>
+    <p id="coinsOutput"></p>
+
+</body>
+</html>

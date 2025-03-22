@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>მომხმარებლის მონაცემები</title>
+    <script src="homwork.js" defer></script>
+</head>
+<body>
+
+    <h2>შეიყვანეთ თქვენი მონაცემები</h2>
+
+    <label for="firstName">სახელი:</label>
+    <input type="text" id="firstName" placeholder="შეიყვანეთ სახელი"><br><br>
+
+    <label for="lastName">გვარი:</label>
+    <input type="text" id="lastName" placeholder="შეიყვანეთ გვარი"><br><br>
+
+    <label for="age">ასაკი:</label>
+    <input type="number" id="age" placeholder="შეიყვანეთ ასაკი"><br><br>
+
+    <label for="residence">საცხოვრებელი ადგილი:</label>
+    <input type="text" id="residence" placeholder="შეიყვანეთ საცხოვრებელი ადგილი"><br><br>
+
+    <label for="motherFirstName">დედის სახელი:</label>
+    <input type="text" id="motherFirstName" placeholder="შეიყვანეთ დედის სახელი"><br><br>
+
+    <label for="motherLastName">დედის გვარი:</label>
+    <input type="text" id="motherLastName" placeholder="შეიყვანეთ დედის გვარი"><br><br>
+
+    <label for="motherAge">დედის ასაკი:</label>
+    <input type="number" id="motherAge" placeholder="შეიყვანეთ დედის ასაკი"><br><br>
+
+    <button onclick="generateSentence()">წინადადების შექმნა</button>
+
+    <h3>თქვენი ინფორმაცია:</h3>
+    <p id="output"></p>
+
+</body>
+</html>
