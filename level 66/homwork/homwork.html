@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Date and Time Tasks</title>
+</head>
+<body>
+  <h1>Date and Time Tasks</h1>
+
+  <div>
+    <h2>Current Date and Time</h2>
+    <p id="currentDateTime"></p>
+  </div>
+
+  <div>
+    <h2>Calculate Age</h2>
+    <input type="date" id="birthdateInput">
+    <button onclick="calculateAge()">Calculate Age</button>
+    <p id="ageResult"></p>
+  </div>
+
+  <div>
+    <h2>Find Day of Week</h2>
+    <input type="date" id="dayInput">
+    <button onclick="showDayOfWeek()">Show Day</button>
+    <p id="dayOutput"></p>
+  </div>
+
+  <div>
+    <h2>Timer</h2>
+    <p id="timer">0</p>
+  </div>
+
+  <div>
+    <h2>Current Time</h2>
+    <p id="currentTime"></p>
+  </div>
+
+  <div>
+    <h2>Delayed Message</h2>
+    <input type="text" id="userMessage" placeholder="Enter message">
+    <input type="number" id="delay" placeholder="Delay in ms">
+    <button onclick="showDelayedMessage()">Show After Delay</button>
+    <p id="delayedOutput"></p>
+  </div>
+
+  <div>
+    <h2>Dynamic Greeting</h2>
+    <p id="greetingMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
